@@ -1,6 +1,6 @@
-def test_exam_points(point->int ,route->string):
-    result = exam_point("10")
-    assert result["is_valid"] == Unsuccessful
+def test_exam_points(point->int ,return->string):
+    result = exam_point("11")
+    assert result["is_valid"] == Good
 
 
 
